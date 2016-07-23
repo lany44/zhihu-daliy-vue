@@ -1,0 +1,28 @@
+@function size($size) {
+  $width: 1080;
+  $scale: 10;
+  @return $size / $width * $scale * 1rem;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url('//at.alicdn.com/t/font_1467357626_5109937.eot'); /* IE9*/
+  src: url('//at.alicdn.com/t/font_1467357626_5109937.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('//at.alicdn.com/t/font_1467357626_5109937.woff') format('woff'), /* chrome、firefox */
+  url('//at.alicdn.com/t/font_1467357626_5109937.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('//at.alicdn.com/t/font_1467357626_5109937.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+
+$main-blue:              #00A2EA !default;
+$white:                  #FFFFFF !default;
+$gray:                   rgb(230,230,230) !default;
+$black:                  black !default;
+$bg-gray:                rgb(244,244,244) !default;
+$main-blue:              #00A2EA !default;
+
+
+%flex-center {
+  display: flex;
+  justify-content: center;
+}
