@@ -2,7 +2,7 @@
   <div id="sidebarBox" :class="{'show-sidebar':showSidebar}">
     <div class="swiper-slide">
       <div class="sidebar-user">
-        <div> 
+        <div>
           <img src="../assets/logo.png" alt="头像" v-link="{path:'/lany44'}">
           <span>lany44</span>
         </div>
@@ -27,7 +27,7 @@
 </template>
 
 <script>
-import { hideBarAPI, fetchAPI } from '../util.js'
+import { hideBarAPI } from '../util.js'
 
 export default{
   props: ['showSidebar'],
@@ -72,7 +72,7 @@ export default{
     box-shadow: 0 0 50px rgb(50,50,50);
     transform: translateX(size(910));
   }
-  
+
   #sidebarBox {
     overflow: auto;
     position: fixed;
@@ -82,7 +82,7 @@ export default{
     top: 0;
     left: size(-910);
     z-index: 100;
-    transition: all .3s ease; 
+    transition: all .3s ease;
   }
   .swiper-slide {
     height: 100%;

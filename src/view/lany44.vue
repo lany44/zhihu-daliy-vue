@@ -10,7 +10,7 @@
     </p>
     <p>软件工程在读，即将大四</p>
     <p>寻找前端实习机会...</p>
-    <p>项目总结ing</p>
+    <p><a href="http://lany44.github.io/2016/07/24/vue+vue-router%E5%AE%9E%E7%8E%B0%E7%9A%84%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5/">项目总结</a></p>
   </div>
 </template>
 

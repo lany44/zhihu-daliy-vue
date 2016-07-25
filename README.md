@@ -1,6 +1,6 @@
 # web版知乎日报        
 
-> *一个  vue ＋ vue-router 学习项目*
+> *一个  vue ＋ vue-router 的学习项目*
 
 ## 声明
 
@@ -10,13 +10,11 @@
 
 ## 说明
 
-在线地址正在努力调试......
+没能提供在线版本...
 
-chrome开发者模式下可以很好的运行…           *（顶锅盖逃～*
+chrome开发者模式下可以较好的运行…           
 
-之前都在学习React相关，决定写个感受下vue...                *然后两边都是半吊子喽*
-
-项目总结ing，之后也会详细看下vue相关文档然后写点什么...           *曾经那些无所事事的暑假呢？*
+[项目总结](http://lany44.github.io/2016/07/24/vue+vue-router%E5%AE%9E%E7%8E%B0%E7%9A%84%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5/)
 
 ## Dependencies
 
@@ -54,9 +52,11 @@ npm run build
 
 ![](./screenshots/me.png)
 
+## Acknowledgements
+
 感谢[ZhihuDailyPurify](https://github.com/izzyleung/ZhihuDailyPurify/wiki/%E7%9F%A5%E4%B9%8E%E6%97%A5%E6%8A%A5-API-%E5%88%86%E6%9E%90)  提供的知乎日报API
 
-感谢[[yatessss](https://github.com/yatessss)]前辈帮我解决本地调试的跨域问题，一个超nice的人
+感谢[[yatessss](https://github.com/yatessss)]帮我解决本地调试的跨域问题，超nice的前辈
 
 ## License
 

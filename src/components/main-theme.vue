@@ -4,7 +4,7 @@
     <h2>{{description}}</h2>
   </div>
   <ul class="theme-list">
-    <li class="theme-editor" v-link="{path: '/editors'}" v-if="editors.length>0">
+    <li class="theme-editor" v-if="editors.length>0">
       <span>主编</span><img :src="item.avatar | replaceImgUrlAPI" v-for="item in editors">
     </li>
     <list-comp v-for="item in allStories" :item="item"></list-comp>
